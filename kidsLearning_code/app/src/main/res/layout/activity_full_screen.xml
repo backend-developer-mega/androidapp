@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/details_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ads_layout">
+
+        <RelativeLayout
+            android:id="@+id/rltTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/header_top_padding">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    android:onClick="onClickBack"
+                    android:src="@drawable/left_back" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <com.learning.games.education.kidspower.kidsCustom.kidsNonSwipeAbleViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toStartOf="@+id/imgBtnNext"
+            android:layout_toEndOf="@+id/imgBtnPrev" />
+
+        <TextView
+            android:id="@+id/tvItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rltTop"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorTheme"
+            android:fontFamily="@font/edosz"
+            android:textStyle="bold"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imgBtnPrev"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="start"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:onClick="onClickPrev"
+            android:src="@drawable/details_left" />
+
+        <ImageView
+            android:id="@+id/imgBtnNext"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end"
+            android:layout_margin="2dp"
+            android:onClick="onClickNext"
+            android:src="@drawable/details_right" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/ads_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+    </RelativeLayout>
+
+</RelativeLayout>

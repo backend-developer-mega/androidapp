@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/rltTop"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorTheme">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    android:onClick="onClickBack"
+                    android:src="@drawable/left_back" />
+
+                <TextView
+                    android:id="@+id/txtTitleSubHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Settings"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/edosz"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/rltSound"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_cell_height"
+            android:layout_below="@+id/rltTop"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/menu_cell_margin_left"
+                android:layout_weight="1"
+                android:text="@string/sound"
+                android:fontFamily="@font/edosz"
+                android:textColor="@color/colorTheme"
+                android:textSize="18dp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/soundOnOff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:checked="true"
+                android:padding="16dp"
+                android:theme="@style/SCBSwitch" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rltSound"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorWhite"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/menu_cell_height"
+                android:layout_marginLeft="@dimen/menu_cell_margin_left"
+                android:gravity="center_vertical"
+                android:onClick="RateUs"
+                android:text="@string/rate"
+                android:fontFamily="@font/edosz"
+                android:textColor="@color/colorTheme"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/menu_cell_height"
+                android:layout_marginLeft="@dimen/menu_cell_margin_left"
+                android:gravity="center_vertical"
+                android:onClick="shareApp"
+                android:text="@string/share"
+                android:fontFamily="@font/edosz"
+                android:textColor="@color/colorTheme"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/menu_cell_height"
+                android:layout_marginLeft="@dimen/menu_cell_margin_left"
+                android:gravity="center_vertical"
+                android:onClick="PrivacyPolicy"
+                android:text="@string/privacy_policy"
+                android:fontFamily="@font/edosz"
+                android:textColor="@color/colorTheme"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/menu_cell_height"
+                android:layout_marginLeft="@dimen/menu_cell_margin_left"
+                android:gravity="center_vertical"
+                android:onClick="MoreApp"
+                android:text="More App"
+                android:textColor="@color/colorBlack"
+                android:textSize="18dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/all_bg_list"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

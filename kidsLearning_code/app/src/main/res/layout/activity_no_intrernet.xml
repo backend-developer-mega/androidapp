@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".kidsActivity.No_Intrernet_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/no_internet_lottie"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/no_internet" />
+
+        <TextView
+            android:id="@+id/txtNoInternet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/no_internet_lottie"
+            android:text="No Internet Connection"
+            android:textAlignment="center"
+            android:textColor="#35366C"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNoInternet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/no_internet_btn_bg"
+            android:paddingHorizontal="50dp"
+            android:text="Retry"
+            android:textAllCaps="false"
+            android:textColor="@color/white">
+
+        </androidx.appcompat.widget.AppCompatButton>
+    </RelativeLayout>
+
+</RelativeLayout>

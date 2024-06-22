@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/details_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/rltTop"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorTheme">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    android:onClick="onClickBack"
+                    android:src="@drawable/left_back" />
+
+                <TextView
+                    android:id="@+id/txtTitleSubHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Look and Choose Quiz"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/edosz"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rltRecycle"
+            android:layout_below="@+id/rltTop">
+
+            <ImageView
+                android:id="@+id/iVQuestion"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/flBootom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="1dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="1dp">
+
+            <ImageView
+                android:id="@+id/imgBtnPrev"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:onClick="onClickPrev"
+                android:src="@drawable/details_left" />
+
+            <ImageView
+                android:id="@+id/imgBtnNext"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="right"
+                android:layout_margin="10dp"
+                android:onClick="onClickNext"
+                android:src="@drawable/details_right" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/rltRecycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/flBootom">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_exam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="8dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/ads_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.learning.games.education.kidspower">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".kidsCustom.kidsAppControl"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KidsLearning"
+        tools:targetApi="33">
+        <activity
+            android:name=".kidsActivity.No_Intrernet_Activity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".kidsActivity.kidsSplashAct"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".kidsActivity.kidsMainAct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kidsActivity.kidsHomeAct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kidsActivity.kidsSubAct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".kidsActivity.kidsFullScreenAct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kidsActivity.kidsExam.kidsLookChooseAct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kidsActivity.kidsExam.kidsListenGuessAct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kidsActivity.kidsVideo.kidsListVideoAct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kidsActivity.kidsVideo.kidsVideoLearningAct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kidsActivity.kidsVideo.kidsVideoPlayAct"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".kidsActivity.kidsSettingAct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kidsActivity.kidsPrivacyPolicyAct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>
