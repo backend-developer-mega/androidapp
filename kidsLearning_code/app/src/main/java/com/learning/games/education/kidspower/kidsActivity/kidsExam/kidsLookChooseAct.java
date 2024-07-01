@@ -692,6 +692,17 @@ public class kidsLookChooseAct extends AppCompatActivity {
                             String str20 = str;
                             this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.train, str20, str20));
                             this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.truck, "Truck", "Truck"));
+                        } else if (i3 == 20) {
+                            ArrayList<kidsLearningDataModel> arrayList22 = new ArrayList<>();
+                            this.learningDataModelArrayList = arrayList22;
+                            arrayList22.add(new kidsLearningDataModel(R.drawable.ambulance, "Ambulance", "Ambulance"));
+                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.bike, "Bike", "Bike"));
+                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.boat, "Boat", "Boat"));
+                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.bus, "Bus", "Bus"));
+                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.car, "Car", "Car"));
+                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.container_truck, "Container Truck", "Container Truck"));
+                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.fire_truck, "Fire Truck", "Fire Truck"));
+                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.helicopter, "Helicopter", "Helicopter"));
                         } else {
                             ArrayList<kidsLearningDataModel> arrayList21 = new ArrayList<>();
                             this.learningDataModelArrayList = arrayList21;

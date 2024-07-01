@@ -150,6 +150,6 @@ public class kidsMainAct extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        appControl.loadAd(ads_layout);
+        //appControl.loadAd(ads_layout);
     }
 }

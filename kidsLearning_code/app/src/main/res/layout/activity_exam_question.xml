@@ -102,12 +102,14 @@
                 android:layout_margin="8dp" />
         </RelativeLayout>
     </RelativeLayout>
+
     <RelativeLayout
         android:id="@+id/ads_layout"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
         android:gravity="center"
-        android:layout_alignParentBottom="true">
+        android:visibility="invisible">
 
     </RelativeLayout>
 

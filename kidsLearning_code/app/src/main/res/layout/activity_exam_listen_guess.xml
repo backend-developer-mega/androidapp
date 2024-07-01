@@ -110,12 +110,14 @@
                 android:onClick="onClickNext"
                 android:src="@drawable/details_right" />
         </FrameLayout>
+
         <RelativeLayout
             android:id="@+id/ads_layout"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
             android:gravity="center"
-            android:layout_alignParentBottom="true">
+            android:visibility="invisible">
 
         </RelativeLayout>
     </RelativeLayout>
