@@ -90,7 +90,7 @@ public class kidsMainAct extends AppCompatActivity {
 
     public void onClickSetting(View view) {
         startActivityForResult(new Intent(this, kidsSettingAct.class), 111);
-        appControl.loadInterAds(this);
+        //appControl.loadInterAds(this);
     }
 
     private void setRvAdapter() {
@@ -120,21 +120,21 @@ public class kidsMainAct extends AppCompatActivity {
                 Intent intent1 = new Intent(this.context, kidsHomeAct.class);
                 intent1.putExtra("Type", 1);
                 this.context.startActivity(intent1);
-                appControl.loadInterAds(this);
+                //appControl.loadInterAds(this);
 
                 return;
             case 1:
                 Intent intent3 = new Intent(this.context, kidsHomeAct.class);
                 intent3.putExtra("Type", 2);
                 this.context.startActivity(intent3);
-                appControl.loadInterAds(this);
+                //appControl.loadInterAds(this);
 
                 return;
             case 2:
                 Intent intent4 = new Intent(this.context, kidsHomeAct.class);
                 intent4.putExtra("Type", 3);
                 this.context.startActivity(intent4);
-                appControl.loadInterAds(this);
+                //appControl.loadInterAds(this);
 
                 return;
             default:

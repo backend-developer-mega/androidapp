@@ -121,32 +121,14 @@ public class kidsListenGuessAct extends AppCompatActivity {
         if (i2 == 0) {
             ArrayList<kidsLearningDataModel> arrayList = new ArrayList<>();
             this.learningDataModelArrayList = arrayList;
-            arrayList.add(new kidsLearningDataModel(R.drawable.a, "A for Apple", "Apple"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.b, "B for Ball", "Ball"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.c, "C for Cat", "Cat"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.d, "D for Dog", "Dog"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.e, "E for Elephant", "Elephant"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.f, "F for Fish", "Fish"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.g, "G for Goat", "Goat"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.h, "H for Horse", "Horse"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.i, "I for Ice cream", "Ice cream"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.j, "J for Joker", "Joker"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.k, "K for Kite", "Kite"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.l, "L for Lion", "Lion"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.m, "M for Monkey", "Monkey"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.n, "N for Nest", "Nest"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.o, "O for Orange", "Orange"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.p, "P for Parrot", "Parrot"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.q, "Q for Queen", "Queen"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.r, "R for Rabbit", "Rabbit"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.s, "S for Sun", "Sun"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.t, "T for Train", "Train"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.u, "U for Umbrella", "Umbrella"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.v, "V for Violin", "Violin"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.w, "W for Watch", "Watch"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.x, "X for Xylophone", "Xylophone"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.y, "Y for Yak", "Yak"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.z, "Z for Zebra", "Zebra"));
+            arrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_1, "Hello", "Hello"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_2, "Good morning", "Good morning"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_3, "Good afternoon", "Good afternoon"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_4, "Good evening", "Good evening"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_5, "Good night", "Good night"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_6, "Bye", "Bye"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_7, "Goodbye", "Goodbye"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_8, "See you", "See you"));
             int i = i2;
             return;
         }
@@ -154,135 +136,138 @@ public class kidsListenGuessAct extends AppCompatActivity {
         if (i3 == 1) {
             ArrayList<kidsLearningDataModel> arrayList2 = new ArrayList<>();
             this.learningDataModelArrayList = arrayList2;
-            arrayList2.add(new kidsLearningDataModel(R.drawable.zero_0, "Zero", "Zero"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.one_1, "One", "One"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.two_2, "Two", "Two"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.three_3, "Three", "Three"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.four_4, "Four", "Four"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.five_5, "Five", "Five"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.six_6, "Six", "Six"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.seven_7, "Seven", "Seven"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.eight_8, "Eight", "Eight"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.nine_9, "Nine", "Nine"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.ten_10, "Ten", "Ten"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.eleven_11, "Eleven", "Eleven"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.twelve_12, "Twelve", "Twelve"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.thirteen_13, "Thirteen", "Thirteen"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.fourteen_14, "Fourteen", "Fourteen"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.fifteen_15, "Fifteen", "Fifteen"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.sixteen_16, "Sixteen", "Sixteen"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.seventeen_17, "Seventeen", "Seventeen"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.eighteen_18, "Eighteen", "Eighteen"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.nineteen_19, "Nineteen", "Nineteen"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.twenty_20, "Twenty", "Twenty"));
+            arrayList2.add(new kidsLearningDataModel(R.drawable.unit1_week2_1, "How are you?", "How are you?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week2_2, "I am fine. Thank you!", "I am fine. Thank you!"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week2_3, "How are you today? ", "How are you today? "));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week2_4, "I am fine", "I am fine"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week2_5, "How are you today?  ", "How are you today?  "));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week2_6, "I am OK", "I am OK"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week2_7, "I am great", "I am great"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week2_8, "How are you?", "How are you?"));
         } else if (i3 == 2) {
             ArrayList<kidsLearningDataModel> arrayList3 = new ArrayList<>();
             this.learningDataModelArrayList = arrayList3;
-            arrayList3.add(new kidsLearningDataModel(R.drawable.green, "Green", "Green"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.pink, "Pink", "Pink"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.red, "Red", "Red"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.black, "Black", "Black"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.aqua, "Aqua", "Aqua"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.blue, "Blue", "Blue"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.brown, "Brown", "Brown"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.slate, "Slate", "Slate"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.violet, "Violet", "Violet"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.white, "White", "White"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.yellow, "Yellow", "Yellow"));
-        } else {
-            String str = "Train";
-            String str2 = "Umbrella";
-            String str3 = "Watch";
-            String str4 = "Orange";
-            String str5 = "Apple";
-            if (i3 == 3) {
-                ArrayList<kidsLearningDataModel> arrayList4 = new ArrayList<>();
-                this.learningDataModelArrayList = arrayList4;
-                arrayList4.add(new kidsLearningDataModel(R.drawable.circle, "Circle", "Circle"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.square, "Square", "Square"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.decagon, "Decagon", "Decagon"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.ellipse, "Ellipse", "Ellipse"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.hexagon, "Hexagon", "Hexagon"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.triangle, "Triangle", "Triangle"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.octagon, "Octagon", "Octagon"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.parallelogram, "Parallelogram", "Parallelogram"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.pentagon, "Pentagon", "Pentagon"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.rectangle, "Rectangle", "Rectangle"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.rhombus, "Rhombus", "Rhombus"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.right_triangle, "Right Triangle", "Right Triangle"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.trapezoid, "Trapezoid", "Trapezoid"));
-            } else if (i3 == 4) {
-                ArrayList<kidsLearningDataModel> arrayList5 = new ArrayList<>();
-                this.learningDataModelArrayList = arrayList5;
-                arrayList5.add(new kidsLearningDataModel(R.drawable.bear, "Bear", "Bear"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.bison, "Bison", "Bison"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.black_leopard, "Black Leopard", "Black Leopard"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.cheetah, "Cheetah", "Cheetah"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.chimpanzee, "Chimpanzee", "Chimpanzee"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.chipmuck, "Chipmuck", "Chipmuck"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.cougar, "Cougar", "Cougar"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.deer, "Deer", "Deer"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.elephant, "Elephant", "Elephant"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.fox, "Fox", "Fox"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.giraffe, "Giraffe", "Giraffe"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.gorilla, "Gorilla", "Gorilla"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.hedgehog, "Hedgehog", "Hedgehog"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.hippopotamus, "Hippopotamus", "Hippopotamus"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.hyena, "Hyena", "Hyena"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.jackal, "Jackal", "Jackal"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.jaguar, "Jaguar", "Jaguar"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.kangaroo, "Kangaroo", "Kangaroo"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.koala_bear, "Koala Bear", "Koala Bear"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.lion, "Lion", "Lion"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.meerkat, "Meerkat", "Meerkat"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.mongoose, "Mongoose", "Mongoose"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.monkey, "Monkey", "Monkey"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.opossum, "Opossum", "Opossum"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.otter, "Otter", "Otter"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.panda, "Panda", "Panda"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.polar_bear, "Polar Bear", "Polar Bear"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.porcupine, "Porcupine", "Porcupine"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.raccoon, "Raccoon", "Raccoon"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.red_panda, "Red Panda", "Red Panda"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.rhinoceros, "Rhinoceros", "Rhinoceros"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.scimitar_oryx, "Scimitar Oryx", "Scimitar Oryx"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.squirrel, "Squirrel", "Squirrel"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.tiger, "Tiger", "Tiger"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.wolf, "Wolf", "Wolf"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.wombat, "Wombat", "Wombat"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.zebra, "Zebra", "Zebra"));
-            } else if (i3 == 5) {
-                ArrayList<kidsLearningDataModel> arrayList6 = new ArrayList<>();
-                this.learningDataModelArrayList = arrayList6;
-                arrayList6.add(new kidsLearningDataModel(R.drawable.canary, "Canary", "Canary"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.crow, "Crow", "Crow"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.dove, "Dove", "Dove"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.duck, "Duck", "Duck"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.eagle, "Eagle", "Eagle"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.hoopoe, "Hoopoe", "Hoopoe"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.hornbill, "Hornbill", "Hornbill"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.kingfisher, "Kingfisher", "Kingfisher"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.kite, "Kite", "Kite"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.lapwing, "Lapwing", "Lapwing"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.mynah, "Mynah", "Mynah"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.nightingale, "Nightingale", "Nightingale"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.owl, "Owl", "Owl"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.parrot, "Parrot", "Parrot"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.peacock, "Peacock", "Peacock"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.peahen, "Peahen", "Peahen"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.pheasant, "Pheasant", "Pheasant"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.pigeon, "Pigeon", "Pigeon"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.puffin, "Puffin", "Puffin"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.quail, "Quail", "Quail"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.robin, "Robin", "Robin"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.sparrow, "Sparrow", "Sparrow"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.swallow, "Swallow", "Swallow"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.toucan, "Toucan", "Toucan"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.vulture, "Vulture", "Vulture"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.wagtail, "Wagtail", "Wagtail"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.waxwing, "Waxwing", "Waxwing"));
-                this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.woodpecker, "Woodpecker", "Woodpecker"));
-            } else if (i3 == 7) {
+            arrayList3.add(new kidsLearningDataModel(R.drawable.unit1_week3_1, "Open your book", "Open your book"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week3_2, "Listen", "Listen"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week3_3, "Repeat", "Repeat"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week3_4, "Close your book", "Close your book"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week3_5, "Stand up", "Stand up"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week3_6, "Sit down", "Sit down"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week3_7, "Raise your hand", "Raise your hand"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week3_8, "Be quiet", "Be quiet"));
+        } else if (i3 == 3) {
+            ArrayList<kidsLearningDataModel> arrayList4 = new ArrayList<>();
+            this.learningDataModelArrayList = arrayList4;
+            arrayList4.add(new kidsLearningDataModel(R.drawable.unit1_week4_1, "What’s your name?", "What’s your name?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week4_2, "I am Michelle", "I am Michelle"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week4_3, "What’s your name?", "What’s your name?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week4_4, "My name is Ana", "My name is Ana"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week4_5, "What’s your name?", "What’s your name?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week4_6, "I am John", "I am John"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week4_7, "What’s your name?", "What’s your name?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week4_8, "My name is Lily", "My name is Lily"));
+        } else if (i3 == 4) {
+            ArrayList<kidsLearningDataModel> arrayList5 = new ArrayList<>();
+            this.learningDataModelArrayList = arrayList5;
+            arrayList5.add(new kidsLearningDataModel(R.drawable.unit1_week5_1, "Good morning! I am Michelle.", "Good morning! I am Michelle."));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week5_2, "Hello! My name is Lily", "Hello! My name is Lily"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week5_3, "Good afternoon! I am Lily.", "Good afternoon! I am Lily."));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week5_4, "Hello! My name is Michelle.", "Hello! My name is Michelle."));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week5_5, "Good evening! I am John.", "Good evening! I am John."));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week5_6, "Hello! My name is Ana", "Hello! My name is Ana"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week5_7, "Good evening! I am Ana.", "Good evening! I am Ana."));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week5_8, "Hello! My name is John.", "Hello! My name is John."));
+        } else if (i3 == 5) {
+            ArrayList<kidsLearningDataModel> arrayList6 = new ArrayList<>();
+            this.learningDataModelArrayList = arrayList6;
+            arrayList6.add(new kidsLearningDataModel(R.drawable.unit1_week6_1, "Hello", "Hello"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week6_2, "Good morning", "Good morning"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week6_3, "What’s your name?", "What’s your name?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week6_4, "I am Michelle", "I am Michelle"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week6_5, "Stand up", "Stand up"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week6_6, "Sit down", "Sit down"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week6_7, "Good evening! I am Ana.", "Good evening! I am Ana."));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week6_8, "Hello! My name is John.", "Hello! My name is John."));
+
+        } else if (i3 == 6) {
+            ArrayList<kidsLearningDataModel> arrayList7 = new ArrayList<>();
+            this.learningDataModelArrayList = arrayList7;
+            arrayList7.add(new kidsLearningDataModel(R.drawable.unit2_week1_1, "The principal's office", "School Facilities"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week1_2, "The classroom ", "School Facilities"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week1_3, "The computer room", "School Facilities"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week1_4, "The library", "School Facilities"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week1_5, "The restrooms", "School Facilities"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week1_6, "The playground", "School Facilities"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week1_7, "The basketball court", "School Facilities"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week1_8, "The soccer field", "School Facilities"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week1_9, "The garden", "School Facilities"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week1_10, "The parking lot", "School Facilities"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week1_11, "The swimming pool", "School Facilities"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week1_12, "The drama room", "School Facilities"));
+        } else if (i3 == 7) {
+            ArrayList<kidsLearningDataModel> arrayList8 = new ArrayList<>();
+            this.learningDataModelArrayList = arrayList8;
+            arrayList8.add(new kidsLearningDataModel(R.drawable.unit2_week2_1, "Pencil", "School Supplies"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week2_2, "Pen", "School Supplies"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week2_3, "Pencil case", "School Supplies"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week2_4, "Colored pencils", "School Supplies"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week2_5, "Eraser", "School Supplies"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week2_6, "Sharpener", "School Supplies"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week2_7, "Markers", "School Supplies"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week2_8, "Scissors", "School Supplies"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week2_9, "Glue", "School Supplies"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week2_10, "Glue stick", "School Supplies"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week2_11, "Notebook", "School Supplies"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week2_12, "Backpack", "School Supplies"));
+        } else if (i3 == 8) {
+            ArrayList<kidsLearningDataModel> arrayList9 = new ArrayList<>();
+            this.learningDataModelArrayList = arrayList9;
+            arrayList9.add(new kidsLearningDataModel(R.drawable.unit2_week3_1, "What are they? They are pencils", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_2, "What is it? It is a pencil", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_3, "What are they? They are erasers", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_4, "What is it? It is a eraser", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_5, "What are they? They are books ", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_6, "What is it? It is a book", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_7, "What are they? They are rulers", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_8, "What is it? It is a ruler", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_9, "What are they? They are pens", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_10, "What is it? It is a pen", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_11, "What are they? They are pencil cases ", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_12, "What is it? It is a pencil case", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_13, "What are they? They are clocks", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_14, "What is it? It is a clock", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_15, "What are they? They are crayons ", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_16, "What is it? It is a crayon", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_17, "What are they? They are staplers", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_18, "What is it? It is a stapler", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_19, "What are they? They are notebooks", "What Is It?"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week3_20, "What is it? It is a notebook", "What Is It?"));
+        } else if (i3 == 9) {
+            ArrayList<kidsLearningDataModel> arrayList10 = new ArrayList<>();
+            this.learningDataModelArrayList = arrayList10;
+            arrayList10.add(new kidsLearningDataModel(R.drawable.unit2_week4_1, "Instructions", "Our First Board Game"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week4_2, "Toss the dice", "Our First Board Game"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week4_3, "Flip a coin", "Our First Board Game"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week4_4, "Look at the picture", "Our First Board Game"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week4_5, "Say its name", "Our First Board Game"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week4_6, "Look at the illustration", "Our First Board Game"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week4_7, "Checkers", "Our First Board Game"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week4_8, "Dominoes", "Our First Board Game"));
+        } else if (i3 == 10) {
+            ArrayList<kidsLearningDataModel> arrayList11 = new ArrayList<>();
+            this.learningDataModelArrayList = arrayList11;
+            arrayList11.add(new kidsLearningDataModel(R.drawable.unit2_week5_1, "The principal's office", "Test"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week5_2, "The classroom ", "Test"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week5_3, "Scissors", "Test"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week5_4, "Glue", "Test"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week5_5, "What are they? They are books ", "Test"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week5_6, "What is it? It is a book", "Test"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week5_7, "Flip a coin", "Test"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit2_week5_8, "Look at the picture", "Test"));
+
+/**
+            }
+            else if (i3 == 7) {
                 ArrayList<kidsLearningDataModel> arrayList7 = new ArrayList<>();
                 this.learningDataModelArrayList = arrayList7;
                 String str6 = str5;
@@ -699,45 +684,24 @@ public class kidsListenGuessAct extends AppCompatActivity {
                             this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.container_truck, "Container Truck", "Container Truck"));
                             this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.fire_truck, "Fire Truck", "Fire Truck"));
                             this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.helicopter, "Helicopter", "Helicopter"));
-                        } else {
-                            ArrayList<kidsLearningDataModel> arrayList21 = new ArrayList<>();
-                            this.learningDataModelArrayList = arrayList21;
-                            arrayList21.add(new kidsLearningDataModel(R.drawable.a, "A for Apple", str10));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.b, "B for Ball", "Ball"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.c, "C for Cat", "Cat"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.d, "D for Dog", "Dog"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.e, "E for Elephant", "Elephant"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.f, "F for Fish", "Fish"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.g, "G for Goat", "Goat"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.h, "H for Horse", "Horse"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.i, "I for Ice cream", "Ice cream"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.j, "J for Joker", "Joker"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.k, "K for Kite", str15));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.l, "L for Lion", str14));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.m, "M for Monkey", str13));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.n, "N for Nest", "Nest"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.o, "O for Orange", str12));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.p, "P for Parrot", str11));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.q, "Q for Queen", "Queen"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.r, "R for Rabbit", "Rabbit"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.s, "S for Sun", "Sun"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.t, "T for Train", str));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.u, "U for Umbrella", str18));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.v, "V for Violin", "Violin"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.w, "W for Watch", str19));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.x, "X for Xylophone", "Xylophone"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.y, "Y for Yak", "Yak"));
-                            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.z, "Z for Zebra", str8));
-                        }
-                    }
-                }
-            }
+ **/
+        } else {
+            ArrayList<kidsLearningDataModel> arrayList21 = new ArrayList<>();
+            this.learningDataModelArrayList = arrayList21;
+            arrayList21.add(new kidsLearningDataModel(R.drawable.unit1_week1_1, "Hello", "Hello"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_2, "Good morning", "Good morning"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_3, "Good afternoon", "Good afternoon"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_4, "Good evening", "Good evening"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_5, "Good night", "Good night"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_6, "Bye", "Bye"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_7, "Goodbye", "Goodbye"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_8, "See you", "See you"));
         }
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        appControl.loadAd(ads_layout);
+        //appControl.loadAd(ads_layout);
     }
 }
