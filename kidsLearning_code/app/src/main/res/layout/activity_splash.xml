@@ -8,5 +8,5 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:background="#fff"
-        android:src="@drawable/splash_bg" />
+        android:src="@drawable/splash_b_bg" />
 </RelativeLayout>

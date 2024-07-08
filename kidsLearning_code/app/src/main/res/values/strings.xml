@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Learning PreA1</string>
+    <string name="app_name">PreA1 Builders</string>
 
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>

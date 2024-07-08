@@ -41,16 +41,30 @@ public class kidsHomeAct extends AppCompatActivity {
         this.rvHomeCategories = (RecyclerView) findViewById(R.id.rvHomeCategories);
         this.txtExamTitle = (TextView) findViewById(R.id.txtTitleSubHome);
         int intExtra = getIntent().getIntExtra("Type", 1);
+        int intmExtra = getIntent().getIntExtra("mType", 1);
         this.type = intExtra;
         if (intExtra == 1) {
-            this.txtExamTitle.setText("Preschool Kids Learning");
+            this.txtExamTitle.setText("Preschool Kids Learning "+intmExtra + " "+intExtra);
+            if (intmExtra == 1) {
+                this.homeCategoryTitles = new String[]{"Greetings", "Greetings"};
+                this.mainCategoryList = new int[]{R.drawable.home_unit1_week1, R.drawable.home_unit1_week2};
+            }
+            if (intmExtra == 2) {
+                this.homeCategoryTitles = new String[]{"School Facilities", "School Supplies"};
+                this.mainCategoryList = new int[]{R.drawable.home_unit2_week1, R.drawable.home_unit2_week2};
+            }
         } else if (intExtra == 2) {
-            this.txtExamTitle.setText("Look and Choose Quiz");
+            this.txtExamTitle.setText("Look and Choose Quiz "+intmExtra+ " "+intExtra);
+            this.homeCategoryTitles = new String[]{"Greetings", "Greetings", "Classroom Commands", "Saying Your Name", "Introducing Myself", "Test", "School Facilities", "School Supplies", "What Is It?", "Our First Board Game", "Test"};
+            this.mainCategoryList = new int[]{R.drawable.home_unit1_week1, R.drawable.home_unit1_week2, R.drawable.home_unit1_week3, R.drawable.home_unit1_week4, R.drawable.home_unit1_week5, R.drawable.home_unit1_week6, R.drawable.home_unit2_week1, R.drawable.home_unit2_week2, R.drawable.home_unit2_week3, R.drawable.home_unit2_week4, R.drawable.home_unit2_week5};
+
         } else if (intExtra == 3) {
-            this.txtExamTitle.setText("Listen and Guess");
+            this.txtExamTitle.setText("Listen and Guess "+intmExtra+ " "+intExtra);
+            this.homeCategoryTitles = new String[]{"Greetings", "Greetings", "Classroom Commands", "Saying Your Name", "Introducing Myself", "Test", "School Facilities", "School Supplies", "What Is It?", "Our First Board Game", "Test"};
+            this.mainCategoryList = new int[]{R.drawable.home_unit1_week1, R.drawable.home_unit1_week2, R.drawable.home_unit1_week3, R.drawable.home_unit1_week4, R.drawable.home_unit1_week5, R.drawable.home_unit1_week6, R.drawable.home_unit2_week1, R.drawable.home_unit2_week2, R.drawable.home_unit2_week3, R.drawable.home_unit2_week4, R.drawable.home_unit2_week5};
+
         }
-        this.homeCategoryTitles = new String[]{"Greetings", "Greetings", "Classroom Commands", "Saying Your Name", "Introducing Myself", "Test", "School Facilities", "School Supplies", "What Is It?", "Our First Board Game", "Test"};
-        this.mainCategoryList = new int[]{R.drawable.home_unit1_week1, R.drawable.home_unit1_week2, R.drawable.home_unit1_week3, R.drawable.home_unit1_week4, R.drawable.home_unit1_week5, R.drawable.home_unit1_week6, R.drawable.home_unit2_week1, R.drawable.home_unit2_week2, R.drawable.home_unit2_week3, R.drawable.home_unit2_week4, R.drawable.home_unit2_week5};
+
         setRvAdapter();
     }
 

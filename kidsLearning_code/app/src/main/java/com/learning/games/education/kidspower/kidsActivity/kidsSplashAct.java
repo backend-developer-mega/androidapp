@@ -68,7 +68,7 @@ public class kidsSplashAct extends AppCompatActivity {
 
         if (isConnected)
         {
-            startNextActivity(4000);
+            startNextActivity(6000);
         }
         else {
             startActivity(new Intent(kidsSplashAct.this,No_Intrernet_Activity.class));
@@ -79,7 +79,7 @@ public class kidsSplashAct extends AppCompatActivity {
     public void startNextActivity(Integer time) {
         new Handler().postDelayed(new Runnable() {
             public void run() {
-                kidsSplashAct.this.startActivity(new Intent(kidsSplashAct.this, kidsMainAct.class));
+                kidsSplashAct.this.startActivity(new Intent(kidsSplashAct.this, kidsUnitMainAct.class));
                 kidsSplashAct.this.finish();
             }
         }, (long) time.intValue());

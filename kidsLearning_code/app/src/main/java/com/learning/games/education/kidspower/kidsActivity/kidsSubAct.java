@@ -68,14 +68,14 @@ public class kidsSubAct extends AppCompatActivity {
         if (i2 == 0) {
             ArrayList<kidsLearningDataModel> arrayList = new ArrayList<>();
             this.learningDataModelArrayList = arrayList;
-            arrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_1, "Hello", "Greetings"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_2, "Good morning", "Greetings"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_3, "Good afternoon", "Greetings"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_4, "Good evening", "Greetings"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_5, "Good night", "Greetings"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_6, "Bye", "Greetings"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_7, "Goodbye", "Greetings"));
-            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_8, "See you", "Greetings"));
+            arrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_1, "Repeat after me: Hello", "Greetings"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_2, "Repeat after me: Good morning", "Greetings"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_3, "Repeat after me: Good afternoon", "Greetings"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_4, "Repeat after me: Good evening", "Greetings"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_5, "Repeat after me: Good night", "Greetings"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_6, "Repeat after me: Bye", "Greetings"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_7, "Repeat after me: Goodbye", "Greetings"));
+            this.learningDataModelArrayList.add(new kidsLearningDataModel(R.drawable.unit1_week1_8, "Repeat after me: See you", "Greetings"));
             int i = i2;
         }
         int i3 = i2;
