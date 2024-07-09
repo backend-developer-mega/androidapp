@@ -22,15 +22,18 @@ import java.util.ArrayList;
 
 public class kidsSubHomeAdapter extends RecyclerView.Adapter<kidsSubHomeAdapter.ViewHolder> {
     int TYPE;
+    int unitType;
     Context context;
     ArrayList<kidsLearningDataModel> learningDataModelArrayList;
     int p;
+    String category;
 
-    public kidsSubHomeAdapter(Context context2, ArrayList<kidsLearningDataModel> learningDataModelArrayList2, int i, int position) {
+    public kidsSubHomeAdapter(Context context2, ArrayList<kidsLearningDataModel> learningDataModelArrayList2, int i, int position, String category) {
         this.context = context2;
         this.learningDataModelArrayList = learningDataModelArrayList2;
         this.p = i;
         this.TYPE = position;
+        this.category = category;
     }
 
     class ViewHolder extends RecyclerView.ViewHolder {
@@ -56,6 +59,7 @@ public class kidsSubHomeAdapter extends RecyclerView.Adapter<kidsSubHomeAdapter.
                 Intent intent = new Intent(kidsSubHomeAdapter.this.context, kidsFullScreenAct.class);
                 intent.putExtra("categoryPosition", kidsSubHomeAdapter.this.p);
                 intent.putExtra("selectedPosition", i);
+                intent.putExtra("category", kidsSubHomeAdapter.this.category);
                 kidsSubHomeAdapter.this.context.startActivity(intent);
             }
         });

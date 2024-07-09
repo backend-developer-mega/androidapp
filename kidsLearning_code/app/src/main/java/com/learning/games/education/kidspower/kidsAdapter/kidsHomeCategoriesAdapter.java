@@ -20,6 +20,7 @@ import com.learning.games.education.kidspower.kidsActivity.kidsSubAct;
 
 public class kidsHomeCategoriesAdapter extends RecyclerView.Adapter<kidsHomeCategoriesAdapter.ViewHolder> {
     int TYPE;
+    int unitType;
     Context context;
     String[] homeCategoryTitles;
     int[] mainCategoryList;
@@ -35,11 +36,12 @@ public class kidsHomeCategoriesAdapter extends RecyclerView.Adapter<kidsHomeCate
         }
     }
 
-    public kidsHomeCategoriesAdapter(Context context2, int[] mainCategoryList2, String[] homeCategoryTitles2, int type) {
+    public kidsHomeCategoriesAdapter(Context context2, int[] mainCategoryList2, String[] homeCategoryTitles2, int type, int unitType) {
         this.context = context2;
         this.mainCategoryList = mainCategoryList2;
         this.homeCategoryTitles = homeCategoryTitles2;
         this.TYPE = type;
+        this.unitType = unitType;
     }
 
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
@@ -55,6 +57,7 @@ public class kidsHomeCategoriesAdapter extends RecyclerView.Adapter<kidsHomeCate
                     intent.putExtra("categoryPosition", i);
                     intent.putExtra("Category", kidsHomeCategoriesAdapter.this.homeCategoryTitles[i]);
                     intent.putExtra("Type", kidsHomeCategoriesAdapter.this.TYPE);
+                    intent.putExtra("unitType", kidsHomeCategoriesAdapter.this.unitType);
                     kidsHomeCategoriesAdapter.this.context.startActivity(intent);
                 } else if (kidsHomeCategoriesAdapter.this.TYPE == 2) {
                     Intent intent2 = new Intent(kidsHomeCategoriesAdapter.this.context, kidsLookChooseAct.class);

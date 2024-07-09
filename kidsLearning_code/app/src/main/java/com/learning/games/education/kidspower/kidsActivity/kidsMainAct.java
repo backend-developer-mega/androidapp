@@ -88,7 +88,7 @@ public class kidsMainAct extends AppCompatActivity {
         this.rvCategory = (RecyclerView) findViewById(R.id.rvCategory);
         this.arrOfCategory = new int[]{R.drawable.card_one, R.drawable.card_three, R.drawable.card_four};
         this.txtUnitTitle = (TextView) findViewById(R.id.txtTitleMain);
-        preposition = getIntent().getIntExtra("mType", 1);
+        preposition = getIntent().getIntExtra("Unit", 1);
         if (preposition == 1) {
             this.txtUnitTitle.setText("Unit 1");
         } else if (preposition == 2) {
@@ -130,7 +130,7 @@ public class kidsMainAct extends AppCompatActivity {
             case 0:
                 Intent intent1 = new Intent(this.context, kidsHomeAct.class);
                 intent1.putExtra("Type", 1);
-                intent1.putExtra("mType",preposition);
+                intent1.putExtra("Unit",preposition);
                 this.context.startActivity(intent1);
                 //appControl.loadInterAds(this);
 
@@ -138,7 +138,7 @@ public class kidsMainAct extends AppCompatActivity {
             case 1:
                 Intent intent3 = new Intent(this.context, kidsHomeAct.class);
                 intent3.putExtra("Type", 2);
-                intent3.putExtra("mType",preposition);
+                intent3.putExtra("Unit",preposition);
                 this.context.startActivity(intent3);
                 //appControl.loadInterAds(this);
 
@@ -146,7 +146,7 @@ public class kidsMainAct extends AppCompatActivity {
             case 2:
                 Intent intent4 = new Intent(this.context, kidsHomeAct.class);
                 intent4.putExtra("Type", 3);
-                intent4.putExtra("mType",preposition);
+                intent4.putExtra("Unit",preposition);
                 this.context.startActivity(intent4);
                 //appControl.loadInterAds(this);
 

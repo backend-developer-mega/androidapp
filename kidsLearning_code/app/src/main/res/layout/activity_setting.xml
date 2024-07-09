@@ -130,14 +130,15 @@
 
             <TextView
                 android:layout_width="348dp"
-                android:layout_height="198dp"
+                android:layout_height="200dp"
                 android:layout_marginLeft="@dimen/menu_cell_margin_left"
+                android:background="@drawable/all_bg_list_b"
                 android:clickable="false"
-                android:gravity="center_vertical"
-                android:onClick="MoreApp"
+                android:gravity="bottom"
                 android:text="+ This App is based on the PreA1 Builders study program of the Ministry of Education of El Salvador."
-                android:textColor="@color/colorBlack"
-                android:textSize="18dp" />
+                android:textColor="@color/colorTheme"
+                android:textSize="18dp"
+                android:textStyle="italic" />
         </LinearLayout>
 
         <RelativeLayout

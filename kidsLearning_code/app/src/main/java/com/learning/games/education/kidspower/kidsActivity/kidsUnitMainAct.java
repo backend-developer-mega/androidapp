@@ -118,21 +118,21 @@ public class kidsUnitMainAct extends AppCompatActivity {
         switch (this.position) {
             case 0:
                 Intent intent1 = new Intent(this.context, kidsMainAct.class);
-                intent1.putExtra("mType", 1);
+                intent1.putExtra("Unit", 1);
                 this.context.startActivity(intent1);
                 //appControl.loadInterAds(this);
 
                 return;
             case 1:
                 Intent intent3 = new Intent(this.context, kidsMainAct.class);
-                intent3.putExtra("mType", 2);
+                intent3.putExtra("Unit", 2);
                 this.context.startActivity(intent3);
                 //appControl.loadInterAds(this);
 
                 return;
             case 2:
                 Intent intent4 = new Intent(this.context, kidsMainAct.class);
-                intent4.putExtra("mType", 3);
+                intent4.putExtra("Unit", 3);
                 this.context.startActivity(intent4);
                 //appControl.loadInterAds(this);
 
