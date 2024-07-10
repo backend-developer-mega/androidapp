@@ -63,6 +63,7 @@ public class kidsHomeCategoriesAdapter extends RecyclerView.Adapter<kidsHomeCate
                     Intent intent2 = new Intent(kidsHomeCategoriesAdapter.this.context, kidsLookChooseAct.class);
                     intent2.putExtra("categoryPosition", i);
                     intent2.putExtra("SubCate", kidsHomeCategoriesAdapter.this.homeCategoryTitles[i]);
+                    intent2.putExtra("Category", kidsHomeCategoriesAdapter.this.homeCategoryTitles[i]);
                     intent2.putExtra("TYPE", 2);
                     kidsHomeCategoriesAdapter.this.context.startActivity(intent2);
                 } else if (kidsHomeCategoriesAdapter.this.TYPE == 3) {

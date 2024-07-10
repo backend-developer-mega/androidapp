@@ -84,7 +84,7 @@ public class kidsUnitMainAct extends AppCompatActivity {
 
     private void initDefine() {
         this.rvCategory = (RecyclerView) findViewById(R.id.rvCategory);
-        this.arrOfCategory = new int[]{R.drawable.menu_unit1, R.drawable.menu_unit2, R.drawable.menu_unit3};
+        this.arrOfCategory = new int[]{R.drawable.menu_unit1, R.drawable.menu_unit2, R.drawable.menu_unit3, R.drawable.menu_unit4, R.drawable.menu_unit5, R.drawable.menu_unit6};
         setRvAdapter();
     }
 
@@ -130,13 +130,13 @@ public class kidsUnitMainAct extends AppCompatActivity {
                 //appControl.loadInterAds(this);
 
                 return;
-            case 2:
-                Intent intent4 = new Intent(this.context, kidsMainAct.class);
-                intent4.putExtra("Unit", 3);
-                this.context.startActivity(intent4);
+            //case 2:
+            //    Intent intent4 = new Intent(this.context, kidsMainAct.class);
+            //    intent4.putExtra("Unit", 3);
+            //    this.context.startActivity(intent4);
                 //appControl.loadInterAds(this);
 
-                return;
+            //    return;
             default:
                 return;
         }
