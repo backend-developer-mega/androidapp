@@ -161,6 +161,10 @@ public class kidsMainAct extends AppCompatActivity {
     //    dialog.show();
     //}
 
+    public void onClickBack(View view) {
+        finish();
+    }
+
     @Override
     protected void onResume() {
         super.onResume();

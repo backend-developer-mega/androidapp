@@ -46,7 +46,7 @@ dependencies {
 
 
     //Firebase
-    implementation 'com.google.firebase:firebase-messaging:23.1.2'
+    //implementation 'com.google.firebase:firebase-messaging:23.1.2'
     //WorkRequest
     implementation 'androidx.work:work-runtime:2.0.1'
     //FaceBook
@@ -69,5 +69,5 @@ dependencies {
     implementation "com.airbnb.android:lottie:6.0.0"
 
     implementation 'com.google.android.gms:play-services-ads:22.2.0'
-    implementation 'com.google.firebase:firebase-firestore:24.7.0'
+    //implementation 'com.google.firebase:firebase-firestore:24.7.0'
 }

@@ -1,6 +1,5 @@
 package com.learning.games.education.kidspower.kidsCustom;
 
-import com.google.firebase.messaging.Constants;
 
 public class kidsConstant {
     public static final String CLICK_IMAGE_COUNT = "click_image_count";
@@ -20,7 +19,7 @@ public class kidsConstant {
     public static final String SPLASH_SCREEN_COUNT = "splash_screen_count";
     public static final String START_BTN_COUNT = "start_btn_count";
     public static final String STATUS_ENABLE_DISABLE = "STATUS_ENABLE_DISABLE";
-    public static String VIDEO = Constants.ScionAnalytics.MessageType.DATA_MESSAGE;
+    //public static String VIDEO = Constants.ScionAnalytics.MessageType.DATA_MESSAGE;
     public static String VIDEO_CATEGORY_ID = "1";
     public static String VIDEO_ID = "";
     public static final String WEIGHT_TABLE_DATE_FORMAT = "yyyy-MM-dd";

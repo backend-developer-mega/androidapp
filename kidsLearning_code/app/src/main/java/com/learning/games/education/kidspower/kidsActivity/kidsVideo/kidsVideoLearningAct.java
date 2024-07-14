@@ -28,7 +28,7 @@ public class kidsVideoLearningAct extends AppCompatActivity {
         getSupportActionBar().hide();
         initDefine();
         this.videocategory = new String[]{"ABC Songs", "Number Songs", "Color Songs", "Animal Songs", "Shape Songs", "Vehicle Songs", "Fruit Songs", "Vegetable Songs", "Day Songs", "Month Songs", "Clothes Songs"};
-        this.tumbnailList = new int[]{R.drawable.vt_abc, R.drawable.vt_number, R.drawable.vt_color, R.drawable.vt_animal, R.drawable.vt_shape, R.drawable.vt_vehicle, R.drawable.vt_fruit, R.drawable.vt_vegetable, R.drawable.vt_day, R.drawable.vt_month, R.drawable.vt_clothes};
+        //this.tumbnailList = new int[]{R.drawable.vt_abc, R.drawable.vt_number, R.drawable.vt_color, R.drawable.vt_animal, R.drawable.vt_shape, R.drawable.vt_vehicle, R.drawable.vt_fruit, R.drawable.vt_vegetable, R.drawable.vt_day, R.drawable.vt_month, R.drawable.vt_clothes};
         setRvAdapter();
       
         

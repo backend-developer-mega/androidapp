@@ -45,7 +45,7 @@ public final class kidsDatabaseHelper extends SQLiteOpenHelper {
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {
             kidsModelVideo modelVideo = new kidsModelVideo();
-            String videoDescription = cursor.getString(cursor.getColumnIndexOrThrow(kidsConstant.VIDEO));
+            String videoDescription = cursor.getString(cursor.getColumnIndexOrThrow(""));
             Intrinsics.checkNotNullExpressionValue(videoDescription, "videoDescription");
 //            modelVideo.setVideoId((String) StringsKt.split$default((CharSequence) videoDescription, new String[]{"#"}, false, 0, 6, (Object) null).get(0));
             modelVideo.setVideoId((String) StringsKt.split(videoDescription,new String[]{"#"},false,0).get(0));
